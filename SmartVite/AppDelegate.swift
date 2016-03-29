@@ -7,15 +7,24 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+  
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+
+        let rootViewController = LoginViewController(nibName: nil, bundle: nil)
+        let frame = UIScreen.mainScreen().bounds
+        self.window = UIWindow(frame: frame)
+        let navController = UINavigationController(rootViewController: rootViewController)
+        self.window?.rootViewController = navController
+        self.window?.makeKeyAndVisible()
+    
         return true
     }
 

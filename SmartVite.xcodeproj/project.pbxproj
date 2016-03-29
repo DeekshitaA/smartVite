@@ -7,21 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A49B3CB1C9F2071003E5211 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A49B2D51C9F2070003E5211 /* FBSDKCoreKit.framework */; };
+		3A49B46E1C9F21FB003E5211 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A49B46D1C9F21FB003E5211 /* FBSDKCoreKit.framework */; };
+		3A49B4701C9F2220003E5211 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A49B46F1C9F2220003E5211 /* FBSDKLoginKit.framework */; };
+		3A49B47C1C9F3D60003E5211 /* EventCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A49B4731C9F3D60003E5211 /* EventCreateViewController.swift */; };
+		3A49B47D1C9F3D60003E5211 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A49B4741C9F3D60003E5211 /* LoginViewController.swift */; };
+		3A49B47E1C9F3D60003E5211 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A49B4751C9F3D60003E5211 /* SignUpViewController.swift */; };
+		3A49B47F1C9F3D60003E5211 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A49B4761C9F3D60003E5211 /* ViewController.swift */; };
+		3A49B4801C9F3D60003E5211 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A49B4771C9F3D60003E5211 /* WelcomeViewController.swift */; };
+		3A49B4821C9F4348003E5211 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A49B4811C9F4348003E5211 /* LoginView.swift */; };
+		3A7485FE1CA8677A00AF29BC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7485FD1CA8677A00AF29BC /* WelcomeView.swift */; };
+		3A7486011CA8778400AF29BC /* FirebaseConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7486001CA8778400AF29BC /* FirebaseConstants.swift */; };
+		3A7486031CAA175900AF29BC /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7486021CAA175900AF29BC /* UserModel.swift */; };
+		3A7486051CAA18CC00AF29BC /* AttendantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7486041CAA18CC00AF29BC /* AttendantModel.swift */; };
+		3A7486071CAA18FC00AF29BC /* InvitationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7486061CAA18FC00AF29BC /* InvitationModel.swift */; };
+		3A7486091CAA195200AF29BC /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7486081CAA195200AF29BC /* EventModel.swift */; };
 		3ABA190D1C8CDCC60055B540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA190C1C8CDCC60055B540 /* AppDelegate.swift */; };
-		3ABA190F1C8CDCC60055B540 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA190E1C8CDCC60055B540 /* ViewController.swift */; };
 		3ABA19121C8CDCC60055B540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA19101C8CDCC60055B540 /* Main.storyboard */; };
 		3ABA19141C8CDCC60055B540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA19131C8CDCC60055B540 /* Assets.xcassets */; };
 		3ABA19171C8CDCC60055B540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA19151C8CDCC60055B540 /* LaunchScreen.storyboard */; };
+		D8242E3BBF3FB4B2DABA2FCB /* Pods_SmartVite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0AEC50323AD89C2DC4EFF6C /* Pods_SmartVite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A49B2D51C9F2070003E5211 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-20160316/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		3A49B46D1C9F21FB003E5211 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		3A49B46F1C9F2220003E5211 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		3A49B4711C9F24A7003E5211 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		3A49B4731C9F3D60003E5211 /* EventCreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCreateViewController.swift; sourceTree = "<group>"; };
+		3A49B4741C9F3D60003E5211 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3A49B4751C9F3D60003E5211 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3A49B4761C9F3D60003E5211 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A49B4771C9F3D60003E5211 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		3A49B4811C9F4348003E5211 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3A7485FD1CA8677A00AF29BC /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		3A7486001CA8778400AF29BC /* FirebaseConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseConstants.swift; sourceTree = "<group>"; };
+		3A7486021CAA175900AF29BC /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		3A7486041CAA18CC00AF29BC /* AttendantModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendantModel.swift; sourceTree = "<group>"; };
+		3A7486061CAA18FC00AF29BC /* InvitationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitationModel.swift; sourceTree = "<group>"; };
+		3A7486081CAA195200AF29BC /* EventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
 		3ABA19091C8CDCC60055B540 /* SmartVite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartVite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABA190C1C8CDCC60055B540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3ABA190E1C8CDCC60055B540 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3ABA19111C8CDCC60055B540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3ABA19131C8CDCC60055B540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ABA19161C8CDCC60055B540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ABA19181C8CDCC60055B540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC229DB2DD1531E0E2BD3371 /* Pods-SmartVite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartVite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartVite/Pods-SmartVite.debug.xcconfig"; sourceTree = "<group>"; };
+		E0AEC50323AD89C2DC4EFF6C /* Pods_SmartVite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartVite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E67920BE5C26441DEADE1283 /* Pods-SmartVite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartVite.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartVite/Pods-SmartVite.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +62,88 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A49B3CB1C9F2071003E5211 /* FBSDKCoreKit.framework in Frameworks */,
+				3A49B46E1C9F21FB003E5211 /* FBSDKCoreKit.framework in Frameworks */,
+				3A49B4701C9F2220003E5211 /* FBSDKLoginKit.framework in Frameworks */,
+				D8242E3BBF3FB4B2DABA2FCB /* Pods_SmartVite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01127F26CB7032D8B02BD23E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A49B2D51C9F2070003E5211 /* FBSDKCoreKit.framework */,
+				CC229DB2DD1531E0E2BD3371 /* Pods-SmartVite.debug.xcconfig */,
+				E67920BE5C26441DEADE1283 /* Pods-SmartVite.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3A49B4721C9F3D60003E5211 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A49B4731C9F3D60003E5211 /* EventCreateViewController.swift */,
+				3A49B4741C9F3D60003E5211 /* LoginViewController.swift */,
+				3A49B4751C9F3D60003E5211 /* SignUpViewController.swift */,
+				3A49B4761C9F3D60003E5211 /* ViewController.swift */,
+				3A49B4771C9F3D60003E5211 /* WelcomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3A49B4781C9F3D60003E5211 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A7486021CAA175900AF29BC /* UserModel.swift */,
+				3A7486041CAA18CC00AF29BC /* AttendantModel.swift */,
+				3A7486061CAA18FC00AF29BC /* InvitationModel.swift */,
+				3A7486081CAA195200AF29BC /* EventModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A49B4791C9F3D60003E5211 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3A49B47A1C9F3D60003E5211 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3A49B47B1C9F3D60003E5211 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A49B4811C9F4348003E5211 /* LoginView.swift */,
+				3A7485FD1CA8677A00AF29BC /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A7485FF1CA8776100AF29BC /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3A7486001CA8778400AF29BC /* FirebaseConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		3ABA19001C8CDCC60055B540 = {
 			isa = PBXGroup;
 			children = (
+				3A49B4711C9F24A7003E5211 /* bridge.h */,
 				3ABA190B1C8CDCC60055B540 /* SmartVite */,
 				3ABA190A1C8CDCC60055B540 /* Products */,
+				01127F26CB7032D8B02BD23E /* Pods */,
+				ECAD908774D66FC80BEEC841 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +158,29 @@
 		3ABA190B1C8CDCC60055B540 /* SmartVite */ = {
 			isa = PBXGroup;
 			children = (
+				3A7485FF1CA8776100AF29BC /* Constants */,
 				3ABA190C1C8CDCC60055B540 /* AppDelegate.swift */,
-				3ABA190E1C8CDCC60055B540 /* ViewController.swift */,
-				3ABA19101C8CDCC60055B540 /* Main.storyboard */,
 				3ABA19131C8CDCC60055B540 /* Assets.xcassets */,
-				3ABA19151C8CDCC60055B540 /* LaunchScreen.storyboard */,
+				3A49B4721C9F3D60003E5211 /* Controllers */,
 				3ABA19181C8CDCC60055B540 /* Info.plist */,
+				3ABA19151C8CDCC60055B540 /* LaunchScreen.storyboard */,
+				3ABA19101C8CDCC60055B540 /* Main.storyboard */,
+				3A49B4781C9F3D60003E5211 /* Models */,
+				3A49B4791C9F3D60003E5211 /* Resources */,
+				3A49B47A1C9F3D60003E5211 /* Utils */,
+				3A49B47B1C9F3D60003E5211 /* Views */,
 			);
 			path = SmartVite;
+			sourceTree = "<group>";
+		};
+		ECAD908774D66FC80BEEC841 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A49B46F1C9F2220003E5211 /* FBSDKLoginKit.framework */,
+				3A49B46D1C9F21FB003E5211 /* FBSDKCoreKit.framework */,
+				E0AEC50323AD89C2DC4EFF6C /* Pods_SmartVite.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3ABA191B1C8CDCC60055B540 /* Build configuration list for PBXNativeTarget "SmartVite" */;
 			buildPhases = (
+				C88F37E024350A1B307E64D3 /* Check Pods Manifest.lock */,
 				3ABA19051C8CDCC60055B540 /* Sources */,
 				3ABA19061C8CDCC60055B540 /* Frameworks */,
 				3ABA19071C8CDCC60055B540 /* Resources */,
+				AE5BAC710BDDD772FA51BF0F /* Embed Pods Frameworks */,
+				9752030597F3E9F48689E28F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +252,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9752030597F3E9F48689E28F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartVite/Pods-SmartVite-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE5BAC710BDDD772FA51BF0F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartVite/Pods-SmartVite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C88F37E024350A1B307E64D3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3ABA19051C8CDCC60055B540 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ABA190F1C8CDCC60055B540 /* ViewController.swift in Sources */,
+				3A49B47F1C9F3D60003E5211 /* ViewController.swift in Sources */,
+				3A49B47D1C9F3D60003E5211 /* LoginViewController.swift in Sources */,
+				3A49B4821C9F4348003E5211 /* LoginView.swift in Sources */,
+				3A7485FE1CA8677A00AF29BC /* WelcomeView.swift in Sources */,
 				3ABA190D1C8CDCC60055B540 /* AppDelegate.swift in Sources */,
+				3A7486011CA8778400AF29BC /* FirebaseConstants.swift in Sources */,
+				3A7486051CAA18CC00AF29BC /* AttendantModel.swift in Sources */,
+				3A49B4801C9F3D60003E5211 /* WelcomeViewController.swift in Sources */,
+				3A7486091CAA195200AF29BC /* EventModel.swift in Sources */,
+				3A49B47E1C9F3D60003E5211 /* SignUpViewController.swift in Sources */,
+				3A7486031CAA175900AF29BC /* UserModel.swift in Sources */,
+				3A7486071CAA18FC00AF29BC /* InvitationModel.swift in Sources */,
+				3A49B47C1C9F3D60003E5211 /* EventCreateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,23 +426,39 @@
 		};
 		3ABA191C1C8CDCC60055B540 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC229DB2DD1531E0E2BD3371 /* Pods-SmartVite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-20160316",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SmartVite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-dk.SmartVite";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 			};
 			name = Debug;
 		};
 		3ABA191D1C8CDCC60055B540 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67920BE5C26441DEADE1283 /* Pods-SmartVite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-20160316",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SmartVite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-dk.SmartVite";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 			};
 			name = Release;
 		};
@@ -284,6 +481,7 @@
 				3ABA191D1C8CDCC60055B540 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
