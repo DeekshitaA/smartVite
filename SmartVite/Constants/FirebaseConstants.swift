@@ -9,5 +9,13 @@ import Firebase
 
 let firebase = Firebase(url: "https://smartvite.firebaseio.com/")
 
+let users = firebase.childByAppendingPath("users")
+
+let events = firebase.childByAppendingPath("events")
+
+
+
+
+
 
 

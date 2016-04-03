@@ -13,10 +13,5 @@ struct Attendant {
     var user:User
     var event:Event
     var status:String // "undecided"
-    
-    init(user: User, event: Event, status: String?) {
-        self.user = user
-        self.event = event
-        self.status = status
-    }
+   
 }

@@ -26,6 +26,7 @@
 		3ABA19121C8CDCC60055B540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA19101C8CDCC60055B540 /* Main.storyboard */; };
 		3ABA19141C8CDCC60055B540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA19131C8CDCC60055B540 /* Assets.xcassets */; };
 		3ABA19171C8CDCC60055B540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA19151C8CDCC60055B540 /* LaunchScreen.storyboard */; };
+		3AC2A21A1CB1AA6A00687D73 /* EventCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC2A2191CB1AA6A00687D73 /* EventCreateView.swift */; };
 		D8242E3BBF3FB4B2DABA2FCB /* Pods_SmartVite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0AEC50323AD89C2DC4EFF6C /* Pods_SmartVite.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		3ABA19131C8CDCC60055B540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ABA19161C8CDCC60055B540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ABA19181C8CDCC60055B540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC2A2191CB1AA6A00687D73 /* EventCreateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCreateView.swift; sourceTree = "<group>"; };
 		CC229DB2DD1531E0E2BD3371 /* Pods-SmartVite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartVite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartVite/Pods-SmartVite.debug.xcconfig"; sourceTree = "<group>"; };
 		E0AEC50323AD89C2DC4EFF6C /* Pods_SmartVite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartVite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67920BE5C26441DEADE1283 /* Pods-SmartVite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartVite.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartVite/Pods-SmartVite.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			children = (
 				3A49B4811C9F4348003E5211 /* LoginView.swift */,
 				3A7485FD1CA8677A00AF29BC /* WelcomeView.swift */,
+				3AC2A2191CB1AA6A00687D73 /* EventCreateView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				3A7486051CAA18CC00AF29BC /* AttendantModel.swift in Sources */,
 				3A49B4801C9F3D60003E5211 /* WelcomeViewController.swift in Sources */,
 				3A7486091CAA195200AF29BC /* EventModel.swift in Sources */,
+				3AC2A21A1CB1AA6A00687D73 /* EventCreateView.swift in Sources */,
 				3A49B47E1C9F3D60003E5211 /* SignUpViewController.swift in Sources */,
 				3A7486031CAA175900AF29BC /* UserModel.swift in Sources */,
 				3A7486071CAA18FC00AF29BC /* InvitationModel.swift in Sources */,

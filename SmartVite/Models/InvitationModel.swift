@@ -14,12 +14,5 @@ struct Invitation {
     var receiver : String
     var event: Event
     var accepted: Bool
-    
-    init(sender: User, receiver: String, event: Event, accepted: Bool) {
-        self.sender = sender
-        self.receiver = receiver
-        self.event = event
-        self.accepted = accepted
-    }
-    
+
 }
